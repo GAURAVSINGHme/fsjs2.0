@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    max-width: 1440px;
+    background-image: url(./assets/bg.png);
+    background-size: cover ;
+    overflow: hidden;
+    
+}
+
+
+
+.navbar{
+    display: flex;
+    background-color: #000;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+}
+
+
+.navbar img{
+    width: 5%;
+    position: fixed;
+    margin: 1.2rem 4rem;
+}
+
+.line::after{
+    content: "\007C";
+    display: block;
+    color: white;
+    position: absolute;
+    left: 10.5rem;
+    top: 1.93rem;
+    
+}
+
+.line::before{
+    content: "\007C";
+    display: block;
+    color: white;
+    position: absolute;
+    left: 10.5rem;
+    top: 1rem;
+    
+}
+
+
+
+.grow-list{
+    flex: 1;
+    margin-left: 12rem;
+    margin-top: 0.8rem;
+    
+}
+
+.grow-list li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 29px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+.grow-list li:nth-child(1)::after{
+    content:"\2304";
+    position: absolute;
+    margin-left: 0.4rem;
+    top: 1.1rem;
+   
+}
+  
+
+.button-small{
+    margin-top: 1.1rem;
+    margin-right: 4.5rem;
+    background-color: #ba0cc5;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 6px;
+}
+
+.hero{
+
+    width: 90%;
+    position: absolute;
+    top: 30%;
+    left: 24%;
+
+
+}
+
+.hero-heading{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 4rem;
+    width: 60%;
+    text-align: center;
+}
+
+
+.hero-description{
+    font-family: 'Montserrat', sans-serif ;
+    color: #fff;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 6%;
+    bottom:-19%;
+}
+
+.button-large{
+    position: absolute;
+    left: 18%;
+    bottom: -72%;
+    background-color:#ba0cc5 ;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
