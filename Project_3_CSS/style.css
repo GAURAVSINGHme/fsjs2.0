@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    max-width: 1440px;
+    margin: auto;
+    overflow: hidden;
+    background-color: #fff;
+}
+.container{
+	margin: 3% 5%;
+}
+
+.navbar-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+ nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    font-family:Orbitron;
+    font-weight: 600;
+ }
+
+ nav ul li:first-child{
+	font-weight: 1000;
+	font-size: 1.2rem;
+	border-bottom: 2px solid black;
+}
+.button-group{
+	display: flex;
+}
+.nav-button{
+    padding:5px 40px;
+    border-radius: 5px;
+    margin-left: 8px;
+    background-color: #fff ;
+    font-size: 1.5rem;
+    color: rgb(114, 114, 114);
+}
+.search-icon{
+    margin-top: 5px;
+}
+
+.hero-container{
+	position: relative;
+}
+
+.square>img{
+	position: relative;
+	width: 300px;
+	height: auto;
+	top: 220px;
+	left: 80px;
+}
+.star>img{
+	width: 60px;
+	height: auto;
+}
+.hero-container>.star:nth-child(2){
+	position: absolute;
+	right: 20px;
+	top: 120px;
+}
+.hero-container>.star:nth-child(3){
+	position: absolute;
+	left: 440px;
+	top: 450px;
+}
+.globe>img{
+	position: relative;
+	width: 40px;
+	height: auto;
+	bottom: 240px;
+	left: 290px;
+}
+
+
+.hero-container>div>img:last-child{
+	position: absolute;
+	height: 400px;
+	width: auto;
+top: 60px;
+}
+
+.hero-container-right{
+	display: flex;
+	align-items: center;
+	justify-content:space-between;
+	flex-direction: column;
+	position: relative;
+
+}
+
+.hero-container-right h1{
+	font-size: 3rem;
+	position: absolute;
+	bottom: 220px;
+	right: 80px;
+	font-family: Orbitron;
+}
+
+.hero-container-right>p{
+	
+	font-size: 1rem;
+	width: 720px;
+	
+	position: absolute;
+	bottom: 110px;
+	font-family: Orbitron;
+	right: 30px;
+	text-align: center;
+}
+
+.button-email{
+	position: absolute;
+	bottom: -10px;
+	right: 390px;
+	margin: 6px;
+	background-color: white;
+	font-family: Orbitron;
+	font-size: 14px;
+	padding: 5px 40px;
+	white-space: noraml;
+	border-radius: 12px;
+}
+
+.button-join{
+	position: absolute;
+	bottom: -6px;
+	right: 220px;
+	margin: 2px;
+	background-color: black;
+	color: white;
+	font-family: Orbitron;
+	font-size: 14px;
+	padding: 5px 40px;
+	white-space: noraml;
+	border-radius: 12px;
+}
+
+.contact-heading{
+	position: relative;
+	top: 150px;
+	left: 210px;
+	font-size: 20px;
+	font-family: 'Poppins';
+	font-weight: 300;
+}
+
+.icons {
+	position: relative;
+	top: 160px;
+	left: 168px;
+
+	} 
+
+	.icons span img{
+		padding-left: 12px;
+		width: 40px;
+	}
